@@ -11,7 +11,11 @@ import { MessageService } from './message.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HeroesComponent, HeroDetailComponent, MessageComponent ],
+  declarations: [ 
+    AppComponent, 
+    HeroesComponent, 
+    HeroDetailComponent, 
+    MessageComponent ],
   bootstrap:    [ AppComponent ],
   providers: [HeroService, MessageService]
 })
